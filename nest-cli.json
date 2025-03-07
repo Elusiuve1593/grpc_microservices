@@ -7,6 +7,14 @@
     "webpack": true,
     "tsConfigPath": "apps/grpc_microservices/tsconfig.app.json"
   },
+  "plugins": [
+    {
+      "name": "ts-proto",
+      "options": {
+        "env": "node"
+      }
+    }
+  ],
   "monorepo": true,
   "root": "apps/grpc_microservices",
   "projects": {
